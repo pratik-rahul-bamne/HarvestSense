@@ -1,54 +1,54 @@
-# 🌾 HarvestSense
+# HarvestSense
 
-**HarvestSense** is a machine learning-powered web application designed to predict agricultural crop yields based on regional and environmental features. It helps farmers, researchers, and policymakers make informed decisions for sustainable agriculture.
+## Overview
+An intelligent agricultural platform that provides crop recommendations and farming insights using machine learning and data analysis.
 
----
+## Features
+- Crop recommendation engine
+- Weather analysis
+- Soil quality assessment
+- Yield prediction
+- Farming best practices
+- Market insights
 
-## 🚀 Features
+## Tech Stack
+- Python
+- Jupyter Notebook
+- Machine Learning Libraries
+- Data Analysis Tools
 
-- 🧠 Trained Decision Tree Regressor model
-- 📊 Preprocessing pipeline for consistent input
-- 🌐 Flask-based web interface
-- 📁 Organized and ready-to-deploy code structure
+## Screenshots
+[Add screenshots here]
 
----
+## Installation
+1. Clone the repository
+2. Install Python 3.x
+3. Install dependencies: `pip install -r requirements.txt`
+4. Open Jupyter: `jupyter notebook`
 
-## 🗂 Project Structure
+## Usage
+1. Load agricultural datasets
+2. Run analysis notebooks
+3. Get crop recommendations
+4. View predictions and insights
+5. Export reports
 
-├── app.py # Flask web application
-├── CropYield-Prediction.ipynb # Jupyter notebook for model development
-├── dtr.pkl # Trained Decision Tree model
-├── preprocessor.pkl # Saved preprocessing pipeline
-├── yield_df.csv # Input dataset
-├── requirements.txt # Python dependencies
-├── static/
-│ └── style.css # Custom CSS styles
-├── templates/
-│ ├── index.html # Input form UI
-│ └── result.html # Output display (optional)
-└── README.md # Project documentation
+## Folder Structure
+```
+HarvestSense/
+├── notebooks/
+├── data/
+├── models/
+├── scripts/
+└── reports/
+```
 
----
+## Future Enhancements
+- Real-time IoT sensor integration
+- Mobile application
+- Weather API integration
+- Pricing analytics
+- Government subsidy information
 
-## 💻 Setup Instructions
-
-1. Clone the repository:
-        git clone https://github.com/yourusername/HarvestSense.git
-        cd HarvestSense
-2. Install dependencies:
-        pip install -r requirements.txt
-3. Run the Flask app:
-        python app.py
-4. Visit the app at:
-        http://127.0.0.1:5000
-
-🔮 Future Improvements
-🌦️ Integrate real-time weather data APIs
-
-🌱 Expand to more crop types
-
-☁️ Deploy to cloud platforms like Heroku or Render
-
-🤝 Contribution
-
-Feel free to fork the repo, open issues, or submit pull requests. All constructive collaboration is welcome!
+## Author
+Pratik Rahul Bamne
